@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PAGINA DE REGISTRO</title>
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="icon" href="./ASSETS/istockphoto-1135747039-612x612.png"> 
+</head>
+<body>
+<header>
+<section class="imagen_titulo">
+    <img src="./ASSETS/lady-justice-justitia-goddess-logo-600nw-2477746473.png" style="width: 300px; height:300px" alt="asesoria_juridica">
+    <br><br>
+    <h1>ASESORIA Y ABOGADOS LOPEZ</h1>
+</section>    
+</header>
+<div class="container">
+<h2>Registro de Usuario</h2>
+<br><br>    
+<form action="registro.html" method="get">
+    <label for="nombre"> NOMBRE</label>
+    <input type="text" id="nombre" name="nombre" required>
+    <br><br>
+    <label for="apellidos"> APELLIDOS</label>
+    <input type="text" id="apellidos" name="apellidos" required>
+    <br><br>
+    <label for="email"> EMAIL</label>
+    <input type="text" id="email" name="email" placeholder="example@gmail.com" required>
+    <br><br>
+    <label for="password"> CONTRASEÑA</label>
+    <input type="password" id="password" name="password" placeholder="Contraseña" required>
+    <br><br>
+    <label for="password"> REPETIR CONTRASEÑA</label>
+    <input type="password" id="password" name="password" placeholder="Repetir Contraseña" required>
+    <br><br>
+    <label for="telefono"> NUMERO DE TELEFONO</label>
+    <input type="tel" id="number" name="number" maxlength="9" required>
+    <br><br>
+    <label>
+        <input type="checkbox" id="mantener_sesion" name="mantener_sesion">  Acepto Los Términos Y Condiciones.
+    </label>
+    <br><br>
+    <button type="submit">REGISTRARSE</button>
+    <br><br>
+    <div class="enlace">
+        <a href="index.html">INICIAR SESION</a>
+    </div>
+</form>
+</div>
+</body>
+</html>
