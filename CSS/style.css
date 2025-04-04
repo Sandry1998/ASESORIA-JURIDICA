@@ -90,9 +90,15 @@ header, footer {
         order:1;
         min-width: 100%;
     }
+    footer{
+        order: 2;
+        min-width: 100%;
+    }
 }
 @media screen and (max-width: 768px) {
-.politica_privacidad
+.politica_privacidad{
+  flex-direction: column;
+}
 nav{
  order: 1;
  min-width: 100%;
@@ -105,6 +111,11 @@ nav{
    order: 3;
    width: 100%;
  }
+ footer{
+    order: 4;
+    min-width: 100%;
+ }
+
    
 }  
 
